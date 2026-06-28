@@ -7,11 +7,11 @@ class Rtr < Formula
   on_macos do
     on_intel do
       url "https://github.com/suncanyon/rtr/releases/download/v0.1.0/rtr-0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 ""
+      sha256 "8f6423d09f4ffb936620189cbc83dfd67cdcbbd823e541ed678ebf2501d3dbbb"
     end
     on_arm do
       url "https://github.com/suncanyon/rtr/releases/download/v0.1.0/rtr-0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 ""
+      sha256 "bfeefa37b93441a4674d2230b8cfeebf9e7d2f625996449757142d772a04d620"
     end
   end
 
