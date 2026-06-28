@@ -1,17 +1,17 @@
 class Rtr < Formula
-  desc "Universal CLI for the RTR API gateway — proxy daemon, agent setup, Claude Code integration"
+  desc "Universal CLI for the RTR API gateway"
   homepage "https://github.com/suncanyon/rtr"
   license "MIT"
   version "0.1.0"
 
   on_macos do
     on_intel do
-      url "https://github.com/suncanyon/rtr/releases/download/v0.1.0/rtr-0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "d0182ea04222a4981b4844e6b5f733cba795780fc975a70368e019af67787a01"
+      url "https://github.com/suncanyon/rtr-releases/releases/download/v0.1.0/rtr-0.1.0-x86_64-apple-darwin.tar.gz"
+      sha256 "72237aa935417373c81852c612b2b3c388d344f95a6cba92b7cb72c94f588a10"
     end
     on_arm do
-      url "https://github.com/suncanyon/rtr/releases/download/v0.1.0/rtr-0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "b78be2163bc404efb0c6c9583af9ce5cb7187a97ae42e3e4f8f3b1a7474b0ea8"
+      url "https://github.com/suncanyon/rtr-releases/releases/download/v0.1.0/rtr-0.1.0-aarch64-apple-darwin.tar.gz"
+      sha256 "48582fb5105286b4a8ad87ee63752dde92b17650129f29aedb0fb0b7b3d68b0b"
     end
   end
 
