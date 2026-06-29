@@ -4,6 +4,8 @@ Homebrew tap for [RTR](https://github.com/suncanyon/rtr) — the universal CLI f
 
 ## Install
 
+**macOS (recommended)**
+
 ```sh
 brew install suncanyon/rtr/rtr
 ```
@@ -13,6 +15,18 @@ Or add the tap separately:
 ```sh
 brew tap suncanyon/rtr
 brew install rtr
+```
+
+**Linux**
+
+```sh
+curl -fsSL https://install-rtr.ext.suncanyontech.com/install.sh | sh
+```
+
+**Windows**
+
+```sh
+winget install suncanyontech.rtr
 ```
 
 ## Quick start
