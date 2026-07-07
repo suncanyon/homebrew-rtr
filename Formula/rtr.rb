@@ -6,12 +6,12 @@ class Rtr < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/suncanyon/rtr-releases/releases/download/cli-v0.1.15/rtr-0.1.15-x86_64-apple-darwin.tar.gz"
-      sha256 "1c136d0572d2764f41701492013837f33de1364db4572ada70013de14bbc3194"
+      url "https://github.com/suncanyon/rtr-releases/releases/download/v0.1.15/rtr-0.1.15-x86_64-apple-darwin.tar.gz"
+      sha256 "ba8cf862f35726ee21531ea4c1fcd25ab18fa4c71431053aa7bf4d6db59f4f57"
     end
     on_arm do
-      url "https://github.com/suncanyon/rtr-releases/releases/download/cli-v0.1.15/rtr-0.1.15-aarch64-apple-darwin.tar.gz"
-      sha256 "aeb314f9df41037ae19d0045bdbb5926de701d66a36216bfa58068f2a9a211b2"
+      url "https://github.com/suncanyon/rtr-releases/releases/download/v0.1.15/rtr-0.1.15-aarch64-apple-darwin.tar.gz"
+      sha256 "3660e50d083ce588d75c12750ad840dd76c2ed6b30fad367b915da6eae90ab09"
     end
   end
 
