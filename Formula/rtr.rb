@@ -2,16 +2,16 @@ class Rtr < Formula
   desc "Universal CLI for the RTR API gateway"
   homepage "https://github.com/suncanyon/rtr"
   license "MIT"
-  version "0.1.28"
+  version "0.1.29"
 
   on_macos do
     on_intel do
-      url "https://github.com/suncanyon/rtr-releases/releases/download/v0.1.28/rtr-0.1.28-x86_64-apple-darwin.tar.gz"
-      sha256 "80490a800733a6611e11fa38a4364a570d153869394b2fe80c167e6cf0ca9f0f"
+      url "https://github.com/suncanyon/rtr-releases/releases/download/v0.1.29/rtr-0.1.29-x86_64-apple-darwin.tar.gz"
+      sha256 "661e90a665b8b3568210400c064bca40c4c4d43dcc8df3bb5f47372fa0ee26d0"
     end
     on_arm do
-      url "https://github.com/suncanyon/rtr-releases/releases/download/v0.1.28/rtr-0.1.28-aarch64-apple-darwin.tar.gz"
-      sha256 "136405b6b6c27fe0773ee1a113828208e044065117d3ac07904128e1e4c99a5d"
+      url "https://github.com/suncanyon/rtr-releases/releases/download/v0.1.29/rtr-0.1.29-aarch64-apple-darwin.tar.gz"
+      sha256 "a81b8d77d03cd1e73ad080a1888d5173216dd2c7112320d2c992d0396e356c79"
     end
   end
 
